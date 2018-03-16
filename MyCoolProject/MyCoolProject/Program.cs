@@ -4,9 +4,9 @@ namespace MyCoolProject
 {
     class Program
     {
-        static void Main(string[] args)
+        public class Cat
         {
-            Console.WriteLine("Hello World!");
+           public string Name { get; set; }
         }
     }
 }
